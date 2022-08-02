@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+#add{
+    border: 2px solid crimson;
+    padding: 10px;
+    background-color: rgba(238, 77, 77, 0.904);
+}
+
+.subTask{
+    font-size: 30px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.task:nth-child(odd){
+    background-color: #eee;
+}
+
+.task:hover {
+    background: #ddd
+}
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 75%;
+    height: 40px;
+}
+
+button{
+    width: 25%;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+p{
+    margin: 0;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.check{
+    font-size: 30px;
+    display: none;
+}
